@@ -1,0 +1,28 @@
+{
+    "type": "jsonwsp/description",
+    "version": "1.0",
+    "servicename": <service-name>,
+    "url": <service-locator>,
+    "types": { (
+        <type-name>: { (
+            <member-name>: <multi-type> )+
+        } )*
+    },
+    "methods": { (
+        <method-name>: {
+            "doc_lines": [ ( <doc-string>, )* ],
+            "params": { (
+                <param-name>: {
+                    "doc_lines": [ ( <doc-string>, )* ],
+                    "def_order": <def-order>,
+                    "type": <multi-type>,
+                    "optional": <param-optional>
+                }, )*
+            },
+            "ret_info": {
+                "doc_lines": [ ( <doc-string>, )* ],
+                "type": <multi-type>
+            }
+        } )+
+    }
+}
