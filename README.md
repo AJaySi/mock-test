@@ -3,10 +3,10 @@ like GET, POST, PUT, DELETE. This library as a base can be used to mock out your
 
 There are examples for mocking REST API calls, methods/functions and standard python libs.
 
-1). Check endpoint_method.py for more details.
-2). The example test cases are present in start_mock_test.py file.
-3). 'config.py' can be used to define your test specific URL/i
-4). 'test_json' directory contains all test jsons that can used with mocked fuctions.
+1) Check endpoint_method.py for more details.
+1) The example test cases are present in start_mock_test.py file.
+1) 'config.py' can be used to define your test specific URL/i
+1) 'test_json' directory contains all test jsons that can used with mocked fuctions.
 
 ----
 ##Installation:
